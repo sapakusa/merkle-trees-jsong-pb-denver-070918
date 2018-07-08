@@ -48,7 +48,7 @@ merkle_parent = double_sha256(tx_hash0+tx_hash1)
 print(merkle_parent.hex())
 ```
 
-### Exercise
+### Try it
 
 #### Calculate the Merkle parent of these hashes:
 ```
@@ -67,6 +67,8 @@ hex_hash2 = '3d238a92a94532b946c90e19c49351c763696cff3db400485b813aecb8a13181'
 # double_sha256 the combination
 # hex() to see the result
 ```
+
+### Test Driven Example
 
 
 ```python
